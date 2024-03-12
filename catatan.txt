@@ -1,0 +1,35 @@
+link icon
+id card = https://fontawesome.com/icons/id-card?f=sharp&s=solid
+
+at(@) = https://fontawesome.com/icons/at?f=classic&s=solid
+
+phone = https://fontawesome.com/icons/phone?f=classic&s=solid
+
+building = https://fontawesome.com/icons/building?f=classic&s=solid
+
+lock = https://fontawesome.com/icons/lock?f=classic&s=solid
+
+building = https://fontawesome.com/icons/building?f=classic&s=solid
+
+bed = https://fontawesome.com/icons/bed?f=classic&s=solid
+
+book bookmark = https://fontawesome.com/icons/book-bookmark?f=classic&s=solid
+
+user = https://fontawesome.com/icons/user?f=classic&s=solid
+
+washing machine = https://fontawesome.com/icons/washing-machine?f=classic&s=solid
+
+clock = https://fontawesome.com/icons/clock?f=classic&s=solid
+
+money bill = https://fontawesome.com/icons/money-bill?f=classic&s=solid
+
+bottle water = https://fontawesome.com/icons/bottle-water?f=sharp&s=solid
+
+bolt = https://fontawesome.com/icons/bolt?f=classic&s=solid
+
+file image = https://fontawesome.com/icons/file-image?f=classic&s=solid
+
+
+warna
+
+border card (home page) = #ccc

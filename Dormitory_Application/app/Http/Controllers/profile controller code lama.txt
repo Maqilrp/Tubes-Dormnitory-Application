@@ -1,0 +1,140 @@
+// class ProfileUserController extends Controller
+// {
+
+//     public function edit($id)
+//     {
+//         $user = User::find($id);
+//         $gedung = Gedung::all();
+
+//         return view('page.profile_user', compact('user', 'gedung'));
+//     }
+
+
+    // public function edit()
+    // {
+    //     $user = auth()->user();
+    //     $gedung = Gedung::all();
+
+    //     return view('page.profile_user', compact('user', 'gedung'));
+    // }
+
+
+    // public function edit()
+    // {
+    //     $gedung = Gedung::all();
+
+    //     return view('page.profile_user', compact('gedung'));
+    // }
+
+    // public function update(Request $request, $id)
+    // {
+    //     // Validate the request data
+    //     $validatedData = $request->validate([
+    //         'email' => 'required|email',
+    //         'nama' => 'required',
+    //         'nim' => 'required',
+    //         'no_telp' => 'required',
+    //         'no_gedung' => 'required',
+    //         'foto' => 'image|mimes:jpeg,png,jpg|max:2048',
+    //     ]);
+
+    //     // Get the user by ID
+    //     $user = User::find($id);
+
+    //     // Update the user's profile information
+    //     $user->email = $request->email;
+    //     $user->nama = $request->nama;
+    //     $user->nim = $request->nim;
+    //     $user->no_telp = $request->no_telp;
+    //     $user->no_gedung = $request->nomor_gedung;
+
+    //     // Handle the photo upload
+    //     if ($request->hasFile('foto')) {
+    //         $file = $request->file('foto');
+    //         $filename = time() . '_' . $file->getClientOriginalName();
+    //         $path = $file->storeAs('public/photos', $filename);
+    //         $user->foto = $path;
+    //     }
+
+    //     // Save the user's updated profile
+    //     $user->save();
+
+    //     // Redirect the user to the profile page
+    //     return redirect()->route('profile_user.edit', ['id' => $user->id])->with('success', 'Profile updated successfully.');
+    // }
+
+
+    // public function update(Request $request, $id)
+    // {
+    //     // Validate the request data
+    //     $validatedData = $request->validate([
+    //         'email' => 'required|email',
+    //         'nama' => 'required',
+    //         'nim' => 'required',
+    //         'no_telp' => 'required',
+    //         'no_gedung' => 'required',
+    //         'foto' => 'image|mimes:jpeg,png,jpg|max:2048',
+    //     ]);
+
+    //     // Get the user by ID
+    //     $user = User::findOrFail($id);
+
+    //     // Update the user's profile information
+    //     $user->email = $request->email;
+    //     $user->nama = $request->nama;
+    //     $user->nim = $request->nim;
+    //     $user->no_telp = $request->no_telp;
+    //     $user->no_gedung = $request->n0_gedung;
+
+    //     // Handle the photo upload
+    //     if ($request->hasFile('foto')) {
+    //         $file = $request->file('foto');
+    //         $filename = time() . '_' . $file->getClientOriginalName();
+    //         $path = $file->storeAs('public/photos', $filename);
+    //         $user->foto = $path;
+    //     }
+
+    //     // Save the user's updated profile
+    //     $user->save();
+
+    //     // Redirect the user to the profile page
+    //     return redirect()->route('profile_user.edit', ['id' => $user->id])->with('success', 'Profile updated successfully.');
+
+    // }
+
+
+
+    // public function update(Request $request, string $id)
+    // {
+    //     $request->validate([
+    //         'email' => 'required|email',
+    //         'nama' => 'required',
+    //         'nim' => 'required|max:10',
+    //         'no_telp' => 'required|max:13',
+    //         'foto' => 'required|image|mimes:jpg,png,jpeg|max:5000',
+    //         'id_gedung' => 'required',
+    //     ]);
+
+    //     // Create a new user
+    //     $user = User::find($id);
+    //     $user->nama = $request->input('nama');
+    //     $user->email = $request->input('email');
+    //     $user->nim = $request->input('nim');
+    //     $user->no_telp = $request->input('no_telp');
+
+    //     // foto upload
+    //     if ($request->hasFile('foto')) {
+    //         $foto = $request->file('foto');
+    //         $fotoPath = $foto->store('foto','public');
+    //         $user->foto = $fotoPath;
+    //     }
+    //     $user->id_gedung = $request->input('id_gedung');
+    //     $user->save();
+
+    //     // Optionally, you can log in the user after registration
+    //     //auth()->login($user);
+
+    //     // Redirect the user to the desired location
+    //     return redirect('page.profile_user');
+    // }
+//}

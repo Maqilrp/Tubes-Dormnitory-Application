@@ -1,0 +1,11 @@
+1. entitas transaksi belum bisa digunakan dan direlasikan, karena tidak ada aktivitas transaksi secara real.
+
+2. belum ada log untuk stiap melakukan crud -- belum bisa diaudit
+
+3. tambahkan foreign key laundry listrik air_minum pada table transaksi (draw.io) dan id_air_minum ke table histori
+
+4. ui admin = sr, petugas laundry, petugas air_minum jika mendapatkan pesanan (notifikasi, chatbox admin )
+
+5. transaksi masih bisa melakukan pembayaran dengan tunai
+
+6. belum ada attribut foto di user

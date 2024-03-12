@@ -1,0 +1,13 @@
+yang belom dikerjain :
+1. histori
+2. user settings
+3. about
+4. aturan asrama
+
+cek kembali function, dan form
+
+erd,dfd blom dirancang
+
+class dan id pada label dan form input belum dirapihin
+
+beberapa font ada yang tidak dapat diakses jadi, dibagian ui/ux dihapus.
